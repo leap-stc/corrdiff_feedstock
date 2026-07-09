@@ -230,39 +230,3 @@ Then inspect it:
 ```bash
 cat README.md
 ````
-
-Check the Git diff:
-
-```bash
-git diff README.md
-```
-
-Then stage all three project files:
-
-```bash
-git add \
-  README.md \
-  feedstock/meta.yaml \
-  feedstock/catalog.yaml
-```
-
-Confirm:
-
-```bash
-git status
-```
-
-You should see:
-
-```text
-Changes to be committed:
-  modified: README.md
-  modified: feedstock/catalog.yaml
-  modified: feedstock/meta.yaml
-```
-
-Then commit:
-
-```bash
-git commit -m "Add CorrDiff datasets to LEAP catalog"
-```
