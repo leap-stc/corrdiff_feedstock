@@ -135,3 +135,6 @@ stores:
 - id: target-2025
   name: CorrDiff reference target dataset for 2025.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/target_2025.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
