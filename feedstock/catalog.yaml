@@ -12,126 +12,252 @@ stores:
 - id: era5-hrrr-interp-128-2020
   name: ERA5 atmospheric fields interpolated to the 128-by-128 HRRR grid for 2020.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/ERA5_hrrr_interp_128_2020.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: era5-hrrr-interp-128-2021
   name: ERA5 atmospheric fields interpolated to the 128-by-128 HRRR grid for 2021.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/ERA5_hrrr_interp_128_2021.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: era5-hrrr-interp-128-2022
   name: ERA5 atmospheric fields interpolated to the 128-by-128 HRRR grid for 2022.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/ERA5_hrrr_interp_128_2022.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: era5-hrrr-interp-128-2023
   name: ERA5 atmospheric fields interpolated to the 128-by-128 HRRR grid for 2023.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/ERA5_hrrr_interp_128_2023.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: era5-hrrr-interp-128-2024
   name: ERA5 atmospheric fields interpolated to the 128-by-128 HRRR grid for 2024.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/ERA5_hrrr_interp_128_2024.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: era5-hrrr-interp-128-2025
   name: ERA5 atmospheric fields interpolated to the 128-by-128 HRRR grid for 2025.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/ERA5_hrrr_interp_128_2025.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: hrrr-nyc-128-2020-2025
   name: "HRRR atmospheric reference data for the New York City region covering 2020\u20132025."
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/hrrr_NYC_128_2020_2025.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: hrrr-nyc-128-2021
   name: HRRR atmospheric reference data for the New York City region for 2021.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/hrrr_NYC_128_2021.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: hrrr-nyc-128-2022
   name: HRRR atmospheric reference data for the New York City region for 2022.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/hrrr_NYC_128_2022.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: hrrr-nyc-128-2023
   name: HRRR atmospheric reference data for the New York City region for 2023.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/hrrr_NYC_128_2023.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: hrrr-nyc-128-2024
   name: HRRR atmospheric reference data for the New York City region for 2024.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/hrrr_NYC_128_2024.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: hrrr-nyc-128-2025
   name: HRRR atmospheric reference data for the New York City region for 2025.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/hrrr_NYC_128_2025.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: input-1945
   name: CorrDiff model input dataset for 1945.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/input_1945.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: input-1955
   name: CorrDiff model input dataset for 1955.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/input_1955.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: input-1965
   name: CorrDiff model input dataset for 1965.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/input_1965.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: input-1975
   name: CorrDiff model input dataset for 1975.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/input_1975.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: input-1985
   name: CorrDiff model input dataset for 1985.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/input_1985.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: input-1995
   name: CorrDiff model input dataset for 1995.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/input_1995.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: input-2005
   name: CorrDiff model input dataset for 2005.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/input_2005.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: input-2020
   name: CorrDiff model input dataset for 2020.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/input_2020.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: input-2021
   name: CorrDiff model input dataset for 2021.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/input_2021.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: input-2025
   name: CorrDiff model input dataset for 2025.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/input_2025.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: output-1945
   name: CorrDiff-generated atmospheric output for 1945.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/output_1945.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: output-1955
   name: CorrDiff-generated atmospheric output for 1955.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/output_1955.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: output-1965
   name: CorrDiff-generated atmospheric output for 1965.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/output_1965.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: output-1975
   name: CorrDiff-generated atmospheric output for 1975.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/output_1975.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: output-1985
   name: CorrDiff-generated atmospheric output for 1985.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/output_1985.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: output-1995
   name: CorrDiff-generated atmospheric output for 1995.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/output_1995.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: output-2005
   name: CorrDiff-generated atmospheric output for 2005.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/output_2005.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: output-2020
   name: CorrDiff-generated atmospheric output for 2020.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/output_2020.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: output-2021
   name: CorrDiff-generated atmospheric output for 2021.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/output_2021.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: output-2025
   name: CorrDiff-generated atmospheric output for 2025.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/output_2025.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: target-1945
   name: CorrDiff reference target dataset for 1945.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/target_1945.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: target-1955
   name: CorrDiff reference target dataset for 1955.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/target_1955.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: target-1965
   name: CorrDiff reference target dataset for 1965.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/target_1965.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: target-1975
   name: CorrDiff reference target dataset for 1975.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/target_1975.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: target-1985
   name: CorrDiff reference target dataset for 1985.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/target_1985.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: target-1995
   name: CorrDiff reference target dataset for 1995.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/target_1995.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: target-2005
   name: CorrDiff reference target dataset for 2005.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/target_2005.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: target-2020
   name: CorrDiff reference target dataset for 2020.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/target_2020.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: target-2021
   name: CorrDiff reference target dataset for 2021.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/target_2021.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
 - id: target-2025
   name: CorrDiff reference target dataset for 2025.
   url: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/hackathon-2026/corrdiff/target_2025.nc
+  public: true
+  xarray_open_kwargs:
+    engine: netcdf4
